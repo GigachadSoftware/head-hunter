@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "headhunter"
+version = "0.1.0"
+description = ""
+authors = ["Vadym <s57111702@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.1"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
