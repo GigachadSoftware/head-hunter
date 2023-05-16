@@ -21,4 +21,5 @@ pip install -r requirements.txt
  
 cd frontend
 git pull origin main
+yarn build
 ```
