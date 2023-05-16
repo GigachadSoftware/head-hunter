@@ -19,7 +19,8 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include("api.urls")),
+    path("admin/", admin.site.urls),
+    path("api/", include("api.urls")),
     path("", TemplateView.as_view(template_name="index.html")),
+    path("", include("allauth.urls")),
 ]
