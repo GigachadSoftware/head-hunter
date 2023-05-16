@@ -1,0 +1,3 @@
+[submodule "headhunter/frontend"]
+	path = headhunter/frontend
+	url = https://github.com/GigachadSoftware/headhunter-front
