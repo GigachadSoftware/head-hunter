@@ -24,3 +24,8 @@ urlpatterns = [
     path("", TemplateView.as_view(template_name="index.html")),
     path("", include("allauth.urls")),
 ]
+
+# TODO: REMOVE THIS TEST SENDING MAIL
+# from django.core.mail import send_mail
+# from django.conf import settings
+# send_mail("Test", "Verify your email address you scammaz 🤖🤖🤖🤖", settings.EMAIL_HOST_USER, ["mykhailo.ovcharenko1@nure.ua"])
