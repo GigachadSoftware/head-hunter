@@ -19,7 +19,8 @@ pip install -r requirements.txt
 ```bash
 #!/usr/bin/bash
  
-cd frontend
+cd headhunter/frontend
 git pull origin main
-yarn build
+yarn install # or npm install
+yarn build # or npm run build
 ```
